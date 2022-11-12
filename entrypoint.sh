@@ -13,6 +13,10 @@ EOF
 chmod 0600 ~/.gem/credentials
 set -x
 
+echo "Setting committer details..."
+git config user.email "${GIT_COMMITTER_EMAIL:-<>}"
+git config user.name "${GIT_COMMITTER_NAME:-GitHub Actions Bot}"
+
 work_directory="${WORKDIR:-.}"
 cd $work_directory
 

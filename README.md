@@ -18,6 +18,10 @@ Inspired by https://github.com/cadwallion/publish-rubygems-action.
     WORKDIR: ''
     # Optional. Set this variable if you have a custom release command to be invoked.
     RELEASE_COMMAND: rake release
+    # Optional. Set this to change the email of who signs the commit.
+    GIT_COMMITTER_EMAIL: '<>'
+    # Optional. Set this to change the name of who signs the commit.
+    GIT_COMMITTER_NAME: 'GitHub Actions Bot'
 ```
 
 # Example

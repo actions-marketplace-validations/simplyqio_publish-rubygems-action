@@ -2,6 +2,11 @@
 
 echo "Setting up gem credentials..."
 set +x
+set -e
+
+echo "Setting git workspace as trusted..."
+git config --global --add safe.directory /github/workspace
+
 mkdir -p ~/.gem
 
 cat <<EOF >~/.gem/credentials

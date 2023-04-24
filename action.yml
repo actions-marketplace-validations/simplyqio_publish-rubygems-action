@@ -4,3 +4,7 @@ description: 'Publish your gem to Rubygems, fully configurable'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+
+branding:
+  icon: 'box'
+  color: 'red'

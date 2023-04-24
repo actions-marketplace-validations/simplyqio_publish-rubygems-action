@@ -1,5 +1,5 @@
 # action.yml
-name: 'Publish to Rubygems'
+name: 'Publish to Rubygems (configurable)'
 description: 'Publish your gem to Rubygems, fully configurable'
 runs:
   using: 'docker'

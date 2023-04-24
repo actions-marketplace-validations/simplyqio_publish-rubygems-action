@@ -7,7 +7,7 @@ Inspired by https://github.com/cadwallion/publish-rubygems-action.
 # Usage
 
 ```yaml
-- uses: simplyqio/publish-rubygems-action@1.0.0
+- uses: simplyqio/publish-rubygems-action@2.0.0
   env:
     # Required. Bundler requires this to release the gem.
     GITHUB_TOKEN: ''
